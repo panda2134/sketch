@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # WARNING -- generated file, see version with ".jinja2" extension.
 
 scriptname="$(which "$0")"
