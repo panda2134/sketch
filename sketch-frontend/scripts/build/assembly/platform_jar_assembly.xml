@@ -44,12 +44,12 @@
         </file>
         -->
         <file>
-            <source>${sketch-backend-proj}/src/SketchSolver/cegis</source>
+            <source>${sketch-backend-proj}/bin/cegis</source>
             <outputDirectory>sketch/compiler/resources</outputDirectory>
             <filtered>false</filtered>
         </file>
         <file>
-            <source>${sketch-backend-proj}/src/SketchSolver/libcegis.a</source>
+            <source>${sketch-backend-proj}/lib/libcegis.a</source>
             <outputDirectory>sketch/compiler/resources/</outputDirectory>
             <filtered>false</filtered>
         </file>

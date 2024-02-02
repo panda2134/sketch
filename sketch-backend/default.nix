@@ -11,4 +11,8 @@ stdenv.mkDerivation {
   src = ./.;
   nativeBuildInputs = [ bash autoreconfHook ];
   buildInputs = [ flex bison gsl ];
+  postInstall = ''
+    mkdir $out/lib
+    cp ./src/SketchSolver/libcegis.a $out/lib
+  '';
 }
